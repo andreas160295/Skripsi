@@ -1,0 +1,215 @@
+h1 a:hover
+{
+	text-decoration:none;
+}
+
+h1,h2,h3 
+{
+	font-family:Century Gothic;
+	font-weight:normal;
+	margin-bottom:15px;
+}
+
+.pane
+{
+	width:1000px;
+	margin:0px auto;
+}
+
+.header
+{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+.loginpane
+{
+	width:230px;
+	display:block;
+	position:relative;
+	float:left;
+	padding:15px;
+}
+
+.forumdesc
+{
+	width:700px;
+	display:block;
+	position:relative;
+	float:left;
+	padding:15px;
+}
+
+.content
+{
+	background-color:#EFEFEF;
+	margin-top:15px;
+	width:970px;
+	display:block;
+	position:relative;
+	float:left;
+	padding:15px;
+}
+
+.header h1
+{
+	margin-left:15px;
+	font-family:Century Gothic;
+	font-weight:normal;
+}
+
+/*link*/
+a
+{
+	text-decoration:none;
+	color:0066FF;
+}
+
+p
+{
+	font-family:Calibri;
+}
+
+
+input[type="submit"],button
+{
+	border-radius:4px;
+	color:EFEFEF;
+	width:200px;
+	padding:7px;
+	font-family:Calibri;
+	background-image:linear-gradient(to bottom, #0066FF, #0099FF);
+	margin-top:15px;
+	border:none;
+}
+
+input[type="text"], [type="password"]
+{
+	border-radius:15px;
+	width:200px;
+	padding:7px;
+	font-family:Arial;
+	margin-top:15px;
+	border:none;
+	background-color:#DFDFDF;
+}
+
+input[type="text"]:focus
+{
+	outline-width:0;
+	outline-style:none;
+}
+
+input[type="password"]:focus
+{
+	outline-width:0;
+	outline-style:none;
+}
+
+input[type="submit"]:focus
+{
+	outline-width:0;
+	outline-style:none;
+}
+
+button:focus
+{
+	outline-width:0;
+	outline-style:none;
+}
+
+
+/*categories table*/
+.category-table
+{
+	width:100%;
+	margin-bottom:35px;
+	font-family:Calibri;
+}
+
+.category-table td.main-category
+{
+	font-size:16pt;
+	font-weight:bold;
+}
+
+.category-table th
+{
+	font-size:12pt;
+	font-weight:bold;
+	text-align:left;
+}
+
+
+/*topic table*/
+.topic-table
+{
+	width:100%;
+	font-family:Calibri;
+}
+
+.topic-table th
+{
+	vertical-align:top;
+	text-align:left;
+	font-size:12pt;
+	background-color:#8E8E8E;
+}
+
+.topic-table td
+{
+	font-size:12pt;
+	padding:4px;
+}
+
+
+/*add new topic*/
+input#topic
+{
+	border-radius:15px;
+	width:350px;
+	padding:7px;
+	font-family:Arial;
+	margin-top:15px;
+	border:none;
+	background-color:#DFDFDF;
+}
+
+textarea
+{
+	width:350px;
+	height:100;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+
+a:hover
+{
+text-decoration:none;
+}
+
+
+
+<!--reply table-->
+.reply-table
+{
+	font-family:Calibri;
+	width:100%;
+}
+
+.reply-table th
+{
+	vertical-align:top;
+	text-align:left;
+	font-size:12pt;
+}
+
+.reply-table td
+{
+	padding-left:15px;
+	padding-top:10px;
+	padding-bottom:10px;
+	vertical-align:top;
+	margin-bottom:5px;
+}
