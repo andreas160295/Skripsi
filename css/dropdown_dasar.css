@@ -1,0 +1,36 @@
+ul#menu{
+	height: 40px;
+	width: 1000px;
+	margin: 0 auto;
+	background:#000000;
+}
+ul#menu li{
+	float: left;
+	list-style: none;
+}
+ul#menu li:hover{
+	background: #000;				
+}
+ul#menu li a{
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	padding: 10px 15px;
+}
+ul#menu ul{
+	display: none;
+}
+ul#menu li:hover ul{
+	display: block;
+	position: absolute;
+	background: #000;	
+	width: 200px;
+	padding: 0;
+}
+ul#menu ul li{
+	float: none;
+}
+ul#menu ul li:hover{
+	background:#333333;
+}

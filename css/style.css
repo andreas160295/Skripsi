@@ -1,0 +1,250 @@
+.pala
+{
+	margin-left:106;
+	margin-right:100;
+	width:1000;
+	height:200;
+	overflow:auto;
+}
+
+.logo
+{	
+	width:500;
+	height:200;
+}
+.banner{
+position:absolute;
+margin-left:15;
+width:820;
+height:200;
+}
+
+body{
+background:url(../img/paper1.jpg);
+}
+
+.menuatas{
+width:800px;
+
+border-left:2px;
+border-collapse:collapse;
+border-right:2px;
+border-right-color:gray;
+border:hidden;
+
+padding:2px 2px 2px 2px;
+padding-top:10px;
+}
+
+.menuatas td:hover{
+background:yellow;
+font-size:20px;
+}
+
+a{
+text-decoration:none;
+text-align:ceter;
+font:bold;
+color:blue;
+}
+
+a:hover
+{
+	color:#000000;	
+}
+
+/*untuk membuat isi tabel*/
+.tabelisi{
+background: url(../img/blue-abstract-background.jpg);
+border-collapse:collapse;
+width:1000;
+height:400;
+
+}
+
+/*judul headline*/
+.judul
+{
+	border:2px solid#a1a1a1;
+	background:white;
+	font-family:algerian;
+	color:#0000FF;
+	width:200px;
+	border-radius:15px;
+	padding-top: 10px;
+	padding-right: 1px;
+	padding-bottom: 10px;
+	padding-left: 1px;
+	
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left: 20px;
+}
+
+/*Tampilan menu headlline news & Detail headline news!!*/
+.pinggir
+{
+	
+	border:2px solid blue;
+	background:white;
+	border-radius:15px;
+	width:200px;
+	padding-top: 1px;
+	padding-right: 2px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	margin-left: 20px;
+}
+
+.box
+{
+	background:url(../img/paper2.jpg);
+	width:500px;
+	height:auto;
+	text-align:justify;
+	box-shadow:3px 3px 3px 3px black;
+	border-radius:15px;
+	margin-top: 10px;
+	padding: 5px 15px 15px 15px;
+	overflow:hidden;
+
+	margin-left:-130px;
+}
+
+.box img
+{
+
+	width:180;
+	height:170;
+	padding-right:10;
+	padding-left:5;
+
+}
+
+
+.boxdetail
+{
+	background:url(../img/paper2.jpg);
+	width:auto;
+	height:auto;
+	text-align:justify;
+	background-color:white;
+	box-shadow:3px 3px 3px 3px black;
+	border-radius:15px;
+	margin: 10px;
+	padding-top: 10px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	overflow:auto;
+}
+
+.boxdetail img
+{
+width:180;
+height:170;
+padding-right:10;
+padding-left:5;
+}
+
+/*menu cari*/
+.cari
+{
+	list-style:none;
+	margin-top:5px;
+	margin-left:18px;
+}
+
+.tampilcari
+{
+	background-color:#CCCCCC;
+	border:solid 1px black;
+	width:auto;
+	height:auto;
+	margin:5px;
+	padding:5px;
+}
+/* Admin */
+
+.headeradmin{
+width:270;
+height:100;
+border:inset;
+}
+
+.bdlogin{	/*kotak login*/
+background:#FFFFFF;
+}
+
+.headermukaadmin{
+width:900;
+height:100;
+}
+
+.admintab{
+height:400;
+width:900;
+border-collapse:collapse;
+
+background:#FFFFFF;
+}
+
+.sampingadmin{
+width:200;
+height:200;
+background-color:#33FF66;
+border-left:hidden;
+border-right:groove;
+border-right-width:1px;
+/*box-shadow:2px 2px 15px rgb(0,0,0) inset;*/
+border-bottom-style:dashed;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color:#000000;
+border-top-width:3px;
+}
+
+.user{
+border:outset;
+border-color:white;
+width:200;
+height:150;
+background:#33CCFF;
+border-collapse:collapse;
+}
+
+th{
+background:gray;
+}
+
+
+/* Tampilan Kategori Admin */
+.formkategori
+{
+	background:#00CCCC;
+	border-collapse:collapse;
+	border:inset;
+}
+
+.datakategori
+{
+	background:#00FFFF;
+	border:groove;
+	border-collapse:collapse;
+}
+
+/* Tampilan Input isi Berita */
+.formberita
+{
+	border-collapse:collapse;
+	background:#33FF99;
+	border:outset;
+	border:solid;
+}
+
+/* Tampilan Lihat Berita */
+.databerita
+{
+	background:#33FF99;
+	border:inset;
+	height:300;
+}
